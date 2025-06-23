@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data-extraction-rules>
+    <cloud-backup>
+        <!-- Include the database and shared preferences -->
+        <include domain="database" path="kartu_kompetensi_db"/>
+        <include domain="sharedpref" path="."/>
+        
+        <!-- Exclude cache directories -->
+        <exclude domain="root" path="cache"/>
+        <exclude domain="root" path="code_cache"/>
+    </cloud-backup>
+    
+    <device-transfer>
+        <!-- Include everything for device-to-device transfer -->
+        <include domain="root" path="."/>
+        <exclude domain="root" path="cache"/>
+        <exclude domain="root" path="code_cache"/>
+    </device-transfer>
+</data-extraction-rules>
