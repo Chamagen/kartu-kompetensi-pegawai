@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ScoreProgressBar custom attributes -->
+    <declare-styleable name="ScoreProgressBar">
+        <attr name="progress" format="integer" />
+        <attr name="cornerRadius" format="dimension" />
+        <attr name="progressColor" format="color" />
+        <attr name="backgroundColor" format="color" />
+    </declare-styleable>
+
+    <!-- CompetencyCardView custom attributes -->
+    <declare-styleable name="CompetencyCardView">
+        <attr name="cardTitle" format="string" />
+        <attr name="cardIcon" format="reference" />
+        <attr name="cardBackgroundColor" format="color" />
+        <attr name="cardStrokeColor" format="color" />
+        <attr name="cardStrokeWidth" format="dimension" />
+    </declare-styleable>
+
+    <!-- InitialsAvatarView custom attributes -->
+    <declare-styleable name="InitialsAvatarView">
+        <attr name="initials" format="string" />
+        <attr name="avatarBackgroundColor" format="color" />
+        <attr name="initialsTextColor" format="color" />
+        <attr name="initialsTextSize" format="dimension" />
+    </declare-styleable>
+
+    <!-- OverallScoreView custom attributes -->
+    <declare-styleable name="OverallScoreView">
+        <attr name="score" format="integer" />
+        <attr name="scoreTextColor" format="color" />
+        <attr name="scoreTextSize" format="dimension" />
+        <attr name="scoreBackgroundColor" format="color" />
+        <attr name="scoreRingColor" format="color" />
+        <attr name="scoreRingWidth" format="dimension" />
+    </declare-styleable>
+
+    <!-- DevelopmentAreaView custom attributes -->
+    <declare-styleable name="DevelopmentAreaView">
+        <attr name="areaTitle" format="string" />
+        <attr name="areaDescription" format="string" />
+        <attr name="areaPriority" format="enum">
+            <enum name="low" value="0" />
+            <enum name="medium" value="1" />
+            <enum name="high" value="2" />
+        </attr>
+        <attr name="areaBackgroundColor" format="color" />
+        <attr name="areaTitleTextColor" format="color" />
+        <attr name="areaDescriptionTextColor" format="color" />
+    </declare-styleable>
+
+    <!-- Common attributes that can be shared across multiple views -->
+    <attr name="defaultCornerRadius" format="dimension" />
+    <attr name="defaultElevation" format="dimension" />
+    <attr name="defaultStrokeWidth" format="dimension" />
+    <attr name="defaultTextSize" format="dimension" />
+    <attr name="defaultIconSize" format="dimension" />
+    <attr name="defaultPadding" format="dimension" />
+    <attr name="defaultMargin" format="dimension" />
+</resources>
