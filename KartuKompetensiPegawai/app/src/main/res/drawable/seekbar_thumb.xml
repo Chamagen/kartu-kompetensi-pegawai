@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Outer shadow -->
+    <item>
+        <shape android:shape="oval">
+            <size
+                android:width="24dp"
+                android:height="24dp" />
+            <padding
+                android:bottom="1dp"
+                android:left="1dp"
+                android:right="1dp"
+                android:top="1dp" />
+            <solid android:color="#22000000" />
+        </shape>
+    </item>
+
+    <!-- Main circle -->
+    <item>
+        <shape android:shape="oval">
+            <size
+                android:width="24dp"
+                android:height="24dp" />
+            <solid android:color="@color/primary" />
+            <!-- Optional gradient for depth -->
+            <gradient
+                android:angle="135"
+                android:endColor="@color/primary"
+                android:startColor="@color/primary_light"
+                android:type="linear" />
+        </shape>
+    </item>
+
+    <!-- Inner highlight -->
+    <item
+        android:left="2dp"
+        android:top="2dp"
+        android:right="2dp"
+        android:bottom="2dp">
+        <shape android:shape="oval">
+            <gradient
+                android:angle="135"
+                android:centerY="0.2"
+                android:startColor="#33FFFFFF"
+                android:centerColor="#11FFFFFF"
+                android:endColor="#00FFFFFF"
+                android:type="linear" />
+        </shape>
+    </item>
+
+    <!-- Center dot -->
+    <item
+        android:left="10dp"
+        android:top="10dp"
+        android:right="10dp"
+        android:bottom="10dp">
+        <shape android:shape="oval">
+            <solid android:color="#33FFFFFF" />
+        </shape>
+    </item>
+
+    <!-- Pressed state overlay -->
+    <item android:state_pressed="true">
+        <shape android:shape="oval">
+            <size
+                android:width="24dp"
+                android:height="24dp" />
+            <solid android:color="#33000000" />
+        </shape>
+    </item>
+
+    <!-- Focus ring -->
+    <item android:state_focused="true">
+        <shape android:shape="oval">
+            <size
+                android:width="32dp"
+                android:height="32dp" />
+            <stroke
+                android:width="2dp"
+                android:color="@color/primary_light" />
+        </shape>
+    </item>
+</layer-list>
