@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/ripple">
+    
+    <item android:id="@android:id/mask">
+        <shape android:shape="rectangle">
+            <corners android:radius="12dp" />
+            <solid android:color="@android:color/white" />
+        </shape>
+    </item>
+
+    <item android:id="@android:id/background">
+        <shape android:shape="rectangle">
+            <!-- Rounded corners for badge-like appearance -->
+            <corners android:radius="12dp" />
+            
+            <!-- Default color, will be overridden programmatically -->
+            <solid android:color="@color/priority_medium" />
+            
+            <!-- Optional stroke for better visibility -->
+            <stroke
+                android:width="1dp"
+                android:color="#33000000" />
+            
+            <!-- Size constraints -->
+            <size
+                android:width="48dp"
+                android:height="24dp" />
+            
+            <!-- Optional gradient overlay for depth -->
+            <gradient
+                android:angle="90"
+                android:centerY="0.5"
+                android:endColor="#00FFFFFF"
+                android:startColor="#11FFFFFF"
+                android:type="linear" />
+        </shape>
+    </item>
+
+    <!-- Optional inner shadow for depth -->
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="12dp" />
+            <gradient
+                android:angle="90"
+                android:centerY="0.9"
+                android:endColor="#11000000"
+                android:startColor="#00000000"
+                android:type="linear" />
+        </shape>
+    </item>
+
+    <!-- Optional highlight for top edge -->
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="12dp" />
+            <gradient
+                android:angle="90"
+                android:centerY="0.1"
+                android:endColor="#00FFFFFF"
+                android:startColor="#22FFFFFF"
+                android:type="linear" />
+        </shape>
+    </item>
+</ripple>
