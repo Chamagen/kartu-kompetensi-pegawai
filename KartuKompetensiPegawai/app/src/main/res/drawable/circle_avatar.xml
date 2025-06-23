@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Shadow layer -->
+    <item>
+        <shape android:shape="oval">
+            <padding
+                android:bottom="1dp"
+                android:left="1dp"
+                android:right="1dp"
+                android:top="1dp" />
+            <solid android:color="#11000000" />
+        </shape>
+    </item>
+
+    <!-- Background layer -->
+    <item>
+        <shape android:shape="oval">
+            <!-- Default background color, will be overridden programmatically -->
+            <solid android:color="@color/avatar_background_1" />
+            
+            <!-- Optional gradient for depth -->
+            <gradient
+                android:angle="135"
+                android:endColor="@color/avatar_background_1"
+                android:startColor="#33FFFFFF"
+                android:type="linear" />
+        </shape>
+    </item>
+
+    <!-- Border layer -->
+    <item>
+        <shape android:shape="oval">
+            <stroke
+                android:width="@dimen/avatar_border_width"
+                android:color="#22FFFFFF" />
+        </shape>
+    </item>
+
+    <!-- Inner highlight -->
+    <item>
+        <shape android:shape="oval">
+            <gradient
+                android:angle="90"
+                android:centerY="0.2"
+                android:endColor="#00FFFFFF"
+                android:startColor="#33FFFFFF"
+                android:type="linear" />
+        </shape>
+    </item>
+
+    <!-- Optional ripple effect for touch feedback -->
+    <item>
+        <ripple android:color="@color/ripple">
+            <item android:id="@android:id/mask">
+                <shape android:shape="oval">
+                    <solid android:color="@android:color/white" />
+                </shape>
+            </item>
+        </ripple>
+    </item>
+</layer-list>
