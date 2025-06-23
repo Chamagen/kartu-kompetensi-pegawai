@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Info -->
+    <string name="app_name">Kartu Kompetensi Pegawai</string>
+    <string name="app_version">Versi %1$s</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Beranda</string>
+    <string name="nav_profile">Profil</string>
+    <string name="nav_settings">Pengaturan</string>
+    <string name="nav_about">Tentang</string>
+
+    <!-- Employee Info -->
+    <string name="label_nip">NIP</string>
+    <string name="label_name">Nama</string>
+    <string name="label_position">Jabatan</string>
+    <string name="label_unit">Unit Kerja</string>
+    <string name="label_status">Status</string>
+    <string name="label_last_updated">Terakhir Diperbarui</string>
+
+    <!-- Competency Categories -->
+    <string name="category_basic">Kompetensi Dasar</string>
+    <string name="category_technical">Kompetensi Teknis</string>
+    <string name="category_emerging">Kompetensi Berkembang</string>
+    <string name="category_potential">Potensi</string>
+
+    <!-- Skill Management -->
+    <string name="label_skill_name">Nama Kompetensi</string>
+    <string name="label_skill_category">Kategori</string>
+    <string name="label_skill_score">Nilai</string>
+    <string name="label_skill_notes">Catatan</string>
+    <string name="label_priority">Prioritas</string>
+    <string name="label_development_areas">Area Pengembangan</string>
+    <string name="label_top_skills">Kompetensi Unggulan</string>
+
+    <!-- Priority Levels -->
+    <string name="priority_high">Tinggi</string>
+    <string name="priority_medium">Sedang</string>
+    <string name="priority_low">Rendah</string>
+
+    <!-- Score Levels -->
+    <string name="score_excellent">Sangat Baik</string>
+    <string name="score_good">Baik</string>
+    <string name="score_average">Cukup</string>
+    <string name="score_below_average">Kurang</string>
+    <string name="score_poor">Perlu Perbaikan</string>
+    <string name="score_format">%1$d%%</string>
+
+    <!-- Dialog Titles -->
+    <string name="dialog_add_skill">Tambah Kompetensi</string>
+    <string name="dialog_edit_skill">Edit Kompetensi</string>
+    <string name="dialog_delete_skill">Hapus Kompetensi</string>
+    <string name="dialog_confirm_delete">Konfirmasi Hapus</string>
+
+    <!-- Actions -->
+    <string name="action_save">Simpan</string>
+    <string name="action_cancel">Batal</string>
+    <string name="action_delete">Hapus</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_add">Tambah</string>
+    <string name="action_refresh">Perbarui</string>
+    <string name="action_search">Cari</string>
+    <string name="action_filter">Filter</string>
+    <string name="action_sort">Urutkan</string>
+
+    <!-- Messages -->
+    <string name="msg_loading">Memuat…</string>
+    <string name="msg_no_data">Tidak ada data</string>
+    <string name="msg_error_general">Terjadi kesalahan</string>
+    <string name="msg_error_connection">Koneksi gagal</string>
+    <string name="msg_success_save">Berhasil disimpan</string>
+    <string name="msg_success_delete">Berhasil dihapus</string>
+    <string name="msg_confirm_delete">Apakah Anda yakin ingin menghapus?</string>
+    <string name="msg_changes_saved">Perubahan telah disimpan</string>
+
+    <!-- Validation -->
+    <string name="error_required">Wajib diisi</string>
+    <string name="error_invalid_nip">NIP tidak valid</string>
+    <string name="error_invalid_score">Nilai harus antara 0-100</string>
+    <string name="error_name_length">Nama terlalu pendek</string>
+
+    <!-- Settings -->
+    <string name="settings_dark_mode">Mode Gelap</string>
+    <string name="settings_notifications">Notifikasi</string>
+    <string name="settings_compact_view">Tampilan Ringkas</string>
+    <string name="settings_language">Bahasa</string>
+    <string name="settings_cache">Hapus Cache</string>
+
+    <!-- About -->
+    <string name="about_description">Aplikasi untuk mengelola dan memantau kompetensi pegawai</string>
+    <string name="about_copyright">© 2024 Kementerian Hukum dan HAM RI</string>
+    <string name="about_version">Versi %1$s (%2$d)</string>
+
+    <!-- Accessibility -->
+    <string name="cd_employee_photo">Foto pegawai</string>
+    <string name="cd_category_icon">Ikon kategori</string>
+    <string name="cd_priority_indicator">Indikator prioritas</string>
+    <string name="cd_score_progress">Progress nilai</string>
+    <string name="cd_expand_collapse">Buka/tutup</string>
+</resources>
