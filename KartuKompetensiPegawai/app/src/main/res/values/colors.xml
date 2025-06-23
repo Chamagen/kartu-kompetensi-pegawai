@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Core brand colors -->
+    <color name="primary">#1565C0</color>
+    <color name="primary_dark">#0D47A1</color>
+    <color name="primary_light">#42A5F5</color>
+    <color name="accent">#FFC107</color>
+    <color name="accent_dark">#FFA000</color>
+    <color name="accent_light">#FFD54F</color>
+
+    <!-- Text colors -->
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="text_hint">#9E9E9E</color>
+    <color name="text_disabled">#BDBDBD</color>
+    <color name="text_on_primary">#FFFFFF</color>
+    <color name="text_on_accent">#000000</color>
+
+    <!-- Background colors -->
+    <color name="background">#FAFAFA</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="dialog_background">#FFFFFF</color>
+    <color name="divider">#E0E0E0</color>
+
+    <!-- Progress bar colors -->
+    <color name="progress_background">#E0E0E0</color>
+    <color name="progress_default">@color/primary</color>
+    <color name="progress_green_dark">#2E7D32</color>
+    <color name="progress_green_light">#4CAF50</color>
+    <color name="progress_yellow">#FFC107</color>
+    <color name="progress_orange">#FF9800</color>
+    <color name="progress_red">#F44336</color>
+
+    <!-- Priority colors -->
+    <color name="priority_high">#F44336</color>
+    <color name="priority_medium">#FFC107</color>
+    <color name="priority_low">#4CAF50</color>
+
+    <!-- Category card colors -->
+    <color name="card_basic">#3F51B5</color>
+    <color name="card_technical">#009688</color>
+    <color name="card_emerging">#E91E63</color>
+    <color name="card_potential">#FF9800</color>
+
+    <!-- Status colors -->
+    <color name="status_active">#4CAF50</color>
+    <color name="status_inactive">#9E9E9E</color>
+    <color name="status_pending">#FFC107</color>
+    <color name="status_error">#F44336</color>
+
+    <!-- Avatar colors -->
+    <color name="avatar_background_1">#1976D2</color>
+    <color name="avatar_background_2">#388E3C</color>
+    <color name="avatar_background_3">#D32F2F</color>
+    <color name="avatar_background_4">#7B1FA2</color>
+    <color name="avatar_background_5">#FFA000</color>
+    <color name="avatar_text">#FFFFFF</color>
+
+    <!-- Chart colors -->
+    <color name="chart_line">#2196F3</color>
+    <color name="chart_grid">#E0E0E0</color>
+    <color name="chart_label">#757575</color>
+    <color name="chart_highlight">#FFC107</color>
+
+    <!-- Overlay colors -->
+    <color name="scrim">#52000000</color>
+    <color name="overlay_light">#1AFFFFFF</color>
+    <color name="overlay_dark">#1A000000</color>
+
+    <!-- System colors -->
+    <color name="ripple">#1F000000</color>
+    <color name="error">#F44336</color>
+    <color name="success">#4CAF50</color>
+    <color name="warning">#FFC107</color>
+    <color name="info">#2196F3</color>
+
+    <!-- Dark theme specific colors -->
+    <color name="dark_background">#121212</color>
+    <color name="dark_surface">#1E1E1E</color>
+    <color name="dark_card_background">#2D2D2D</color>
+    <color name="dark_text_primary">#FFFFFF</color>
+    <color name="dark_text_secondary">#B3FFFFFF</color>
+    <color name="dark_divider">#1FFFFFFF</color>
+</resources>
